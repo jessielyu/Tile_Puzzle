@@ -1,0 +1,2033 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf408ee20b531ef4982007662963b2d5, type: 3}
+  m_Name: arial_70
+  m_EditorClassIdentifier: 
+  m_layout: {fileID: 4900000, guid: 1f2107e846fe6e940bb12517698c4c04, type: 3}
+  m_textures:
+  - {fileID: 2800000, guid: dcac4127d40cc834bb3383f0e5c33ecb, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: 3de1d4e3f77526f4da1f0999edc942eb, type: 2}
+  m_pixelToUnits: 100
+  m_fontData:
+    m_info:
+      m_face: Arial
+      m_size: 70
+      m_bold: 0
+      m_italic: 0
+      m_charset: 
+      m_unicode: 1
+      m_stretchHeight: 100
+      m_smooth: 1
+      m_superSampling: 4
+      m_padding:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_spacing: {x: 1, y: 1}
+      m_outline: 0
+    m_common:
+      m_lineHeight: 70
+      m_base: 57
+      m_scaleW: 512
+      m_scaleH: 256
+      m_pages: 1
+      m_packed: 0
+      m_alphaChannel: 0
+      m_redChannel: 4
+      m_greenChannel: 4
+      m_blueChannel: 4
+    m_pages:
+    - m_id: 0
+      m_file: arial_70_0.png
+    m_chars:
+    - m_description: 'Char: [ ]; Code: [32]'
+      m_id: 32
+      m_x: 510
+      m_y: 0
+      m_width: 0
+      m_height: 1
+      m_xOffset: 0
+      m_yOffset: 69
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .99609375
+        y: 0
+        width: 0
+        height: .00390625
+    - m_description: 'Char: [!]; Code: [33]'
+      m_id: 33
+      m_x: 501
+      m_y: 95
+      m_width: 8
+      m_height: 46
+      m_xOffset: 5
+      m_yOffset: 11
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .978515625
+        y: .37109375
+        width: .015625
+        height: .1796875
+    - m_description: 'Char: ["]; Code: [34]'
+      m_id: 34
+      m_x: 357
+      m_y: 226
+      m_width: 17
+      m_height: 16
+      m_xOffset: 2
+      m_yOffset: 11
+      m_xAdvance: 22
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .697265625
+        y: .8828125
+        width: .033203125
+        height: .0625
+    - m_description: 'Char: [#]; Code: [35]'
+      m_id: 35
+      m_x: 38
+      m_y: 61
+      m_width: 34
+      m_height: 47
+      m_xOffset: 0
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .07421875
+        y: .23828125
+        width: .06640625
+        height: .18359375
+    - m_description: 'Char: [$]; Code: [36]'
+      m_id: 36
+      m_x: 182
+      m_y: 0
+      m_width: 31
+      m_height: 56
+      m_xOffset: 2
+      m_yOffset: 7
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .35546875
+        y: 0
+        width: .060546875
+        height: .21875
+    - m_description: 'Char: [%]; Code: [37]'
+      m_id: 37
+      m_x: 260
+      m_y: 0
+      m_width: 49
+      m_height: 48
+      m_xOffset: 3
+      m_yOffset: 10
+      m_xAdvance: 56
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .5078125
+        y: 0
+        width: .095703125
+        height: .1875
+    - m_description: 'Char: [&]; Code: [38]'
+      m_id: 38
+      m_x: 471
+      m_y: 0
+      m_width: 38
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .919921875
+        y: 0
+        width: .07421875
+        height: .18359375
+    - m_description: 'Char: ['']; Code: [39]'
+      m_id: 39
+      m_x: 375
+      m_y: 225
+      m_width: 7
+      m_height: 16
+      m_xOffset: 2
+      m_yOffset: 11
+      m_xAdvance: 12
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .732421875
+        y: .87890625
+        width: .013671875
+        height: .0625
+    - m_description: 'Char: [(]; Code: [40]'
+      m_id: 40
+      m_x: 117
+      m_y: 0
+      m_width: 15
+      m_height: 60
+      m_xOffset: 3
+      m_yOffset: 10
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .228515625
+        y: 0
+        width: .029296875
+        height: .234375
+    - m_description: 'Char: [)]; Code: [41]'
+      m_id: 41
+      m_x: 100
+      m_y: 0
+      m_width: 16
+      m_height: 60
+      m_xOffset: 3
+      m_yOffset: 10
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .1953125
+        y: 0
+        width: .03125
+        height: .234375
+    - m_description: 'Char: [*]; Code: [42]'
+      m_id: 42
+      m_x: 335
+      m_y: 226
+      m_width: 21
+      m_height: 20
+      m_xOffset: 1
+      m_yOffset: 10
+      m_xAdvance: 24
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .654296875
+        y: .8828125
+        width: .041015625
+        height: .078125
+    - m_description: 'Char: [+]; Code: [43]'
+      m_id: 43
+      m_x: 470
+      m_y: 189
+      m_width: 31
+      m_height: 30
+      m_xOffset: 3
+      m_yOffset: 19
+      m_xAdvance: 36
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .91796875
+        y: .73828125
+        width: .060546875
+        height: .1171875
+    - m_description: 'Char: [,]; Code: [44]'
+      m_id: 44
+      m_x: 502
+      m_y: 178
+      m_width: 7
+      m_height: 16
+      m_xOffset: 5
+      m_yOffset: 50
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .98046875
+        y: .6953125
+        width: .013671875
+        height: .0625
+    - m_description: 'Char: [-]; Code: [45]'
+      m_id: 45
+      m_x: 241
+      m_y: 193
+      m_width: 18
+      m_height: 6
+      m_xOffset: 1
+      m_yOffset: 37
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .470703125
+        y: .75390625
+        width: .03515625
+        height: .0234375
+    - m_description: 'Char: [.]; Code: [46]'
+      m_id: 46
+      m_x: 233
+      m_y: 146
+      m_width: 7
+      m_height: 7
+      m_xOffset: 5
+      m_yOffset: 50
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .455078125
+        y: .5703125
+        width: .013671875
+        height: .02734375
+    - m_description: 'Char: [/]; Code: [47]'
+      m_id: 47
+      m_x: 403
+      m_y: 48
+      m_width: 18
+      m_height: 47
+      m_xOffset: 0
+      m_yOffset: 10
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .787109375
+        y: .1875
+        width: .03515625
+        height: .18359375
+    - m_description: 'Char: [0]; Code: [48]'
+      m_id: 48
+      m_x: 136
+      m_y: 61
+      m_width: 30
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .265625
+        y: .23828125
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [1]; Code: [49]'
+      m_id: 49
+      m_x: 441
+      m_y: 48
+      m_width: 17
+      m_height: 47
+      m_xOffset: 6
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .861328125
+        y: .1875
+        width: .033203125
+        height: .18359375
+    - m_description: 'Char: [2]; Code: [50]'
+      m_id: 50
+      m_x: 73
+      m_y: 61
+      m_width: 31
+      m_height: 47
+      m_xOffset: 1
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .142578125
+        y: .23828125
+        width: .060546875
+        height: .18359375
+    - m_description: 'Char: [3]; Code: [51]'
+      m_id: 51
+      m_x: 260
+      m_y: 49
+      m_width: 30
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .5078125
+        y: .19140625
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [4]; Code: [52]'
+      m_id: 52
+      m_x: 144
+      m_y: 156
+      m_width: 32
+      m_height: 46
+      m_xOffset: 0
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .28125
+        y: .609375
+        width: .0625
+        height: .1796875
+    - m_description: 'Char: [5]; Code: [53]'
+      m_id: 53
+      m_x: 177
+      m_y: 156
+      m_width: 31
+      m_height: 46
+      m_xOffset: 2
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .345703125
+        y: .609375
+        width: .060546875
+        height: .1796875
+    - m_description: 'Char: [6]; Code: [54]'
+      m_id: 54
+      m_x: 105
+      m_y: 61
+      m_width: 30
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .205078125
+        y: .23828125
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [7]; Code: [55]'
+      m_id: 55
+      m_x: 241
+      m_y: 146
+      m_width: 30
+      m_height: 46
+      m_xOffset: 2
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .470703125
+        y: .5703125
+        width: .05859375
+        height: .1796875
+    - m_description: 'Char: [8]; Code: [56]'
+      m_id: 56
+      m_x: 167
+      m_y: 59
+      m_width: 30
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .326171875
+        y: .23046875
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [9]; Code: [57]'
+      m_id: 57
+      m_x: 198
+      m_y: 57
+      m_width: 30
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .38671875
+        y: .22265625
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [:]; Code: [58]'
+      m_id: 58
+      m_x: 398
+      m_y: 190
+      m_width: 7
+      m_height: 34
+      m_xOffset: 5
+      m_yOffset: 23
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .77734375
+        y: .7421875
+        width: .013671875
+        height: .1328125
+    - m_description: 'Char: [;]; Code: [59]'
+      m_id: 59
+      m_x: 478
+      m_y: 142
+      m_width: 7
+      m_height: 43
+      m_xOffset: 5
+      m_yOffset: 23
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .93359375
+        y: .5546875
+        width: .013671875
+        height: .16796875
+    - m_description: 'Char: [<]; Code: [60]'
+      m_id: 60
+      m_x: 438
+      m_y: 190
+      m_width: 31
+      m_height: 31
+      m_xOffset: 3
+      m_yOffset: 18
+      m_xAdvance: 36
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .85546875
+        y: .7421875
+        width: .060546875
+        height: .12109375
+    - m_description: 'Char: [=]; Code: [61]'
+      m_id: 61
+      m_x: 303
+      m_y: 228
+      m_width: 31
+      m_height: 20
+      m_xOffset: 3
+      m_yOffset: 24
+      m_xAdvance: 36
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .591796875
+        y: .890625
+        width: .060546875
+        height: .078125
+    - m_description: 'Char: [>]; Code: [62]'
+      m_id: 62
+      m_x: 406
+      m_y: 190
+      m_width: 31
+      m_height: 31
+      m_xOffset: 3
+      m_yOffset: 18
+      m_xAdvance: 36
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .79296875
+        y: .7421875
+        width: .060546875
+        height: .12109375
+    - m_description: 'Char: [?]; Code: [63]'
+      m_id: 63
+      m_x: 229
+      m_y: 51
+      m_width: 30
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .447265625
+        y: .19921875
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [@]; Code: [64]'
+      m_id: 64
+      m_x: 0
+      m_y: 0
+      m_width: 59
+      m_height: 60
+      m_xOffset: 3
+      m_yOffset: 10
+      m_xAdvance: 64
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: .115234375
+        height: .234375
+    - m_description: 'Char: [A]; Code: [65]'
+      m_id: 65
+      m_x: 60
+      m_y: 109
+      m_width: 43
+      m_height: 46
+      m_xOffset: 0
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .1171875
+        y: .42578125
+        width: .083984375
+        height: .1796875
+    - m_description: 'Char: [B]; Code: [66]'
+      m_id: 66
+      m_x: 37
+      m_y: 156
+      m_width: 35
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .072265625
+        y: .609375
+        width: .068359375
+        height: .1796875
+    - m_description: 'Char: [C]; Code: [67]'
+      m_id: 67
+      m_x: 429
+      m_y: 0
+      m_width: 41
+      m_height: 47
+      m_xOffset: 3
+      m_yOffset: 10
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .837890625
+        y: 0
+        width: .080078125
+        height: .18359375
+    - m_description: 'Char: [D]; Code: [68]'
+      m_id: 68
+      m_x: 274
+      m_y: 97
+      m_width: 38
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .53515625
+        y: .37890625
+        width: .07421875
+        height: .1796875
+    - m_description: 'Char: [E]; Code: [69]'
+      m_id: 69
+      m_x: 109
+      m_y: 156
+      m_width: 34
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .212890625
+        y: .609375
+        width: .06640625
+        height: .1796875
+    - m_description: 'Char: [F]; Code: [70]'
+      m_id: 70
+      m_x: 209
+      m_y: 154
+      m_width: 31
+      m_height: 46
+      m_xOffset: 5
+      m_yOffset: 11
+      m_xAdvance: 38
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .408203125
+        y: .6015625
+        width: .060546875
+        height: .1796875
+    - m_description: 'Char: [G]; Code: [71]'
+      m_id: 71
+      m_x: 386
+      m_y: 0
+      m_width: 42
+      m_height: 47
+      m_xOffset: 3
+      m_yOffset: 10
+      m_xAdvance: 49
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .75390625
+        y: 0
+        width: .08203125
+        height: .18359375
+    - m_description: 'Char: [H]; Code: [72]'
+      m_id: 72
+      m_x: 0
+      m_y: 156
+      m_width: 36
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: 0
+        y: .609375
+        width: .0703125
+        height: .1796875
+    - m_description: 'Char: [I]; Code: [73]'
+      m_id: 73
+      m_x: 504
+      m_y: 48
+      m_width: 7
+      m_height: 46
+      m_xOffset: 5
+      m_yOffset: 11
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .984375
+        y: .1875
+        width: .013671875
+        height: .1796875
+    - m_description: 'Char: [J]; Code: [74]'
+      m_id: 74
+      m_x: 419
+      m_y: 143
+      m_width: 26
+      m_height: 46
+      m_xOffset: 1
+      m_yOffset: 11
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .818359375
+        y: .55859375
+        width: .05078125
+        height: .1796875
+    - m_description: 'Char: [K]; Code: [75]'
+      m_id: 75
+      m_x: 313
+      m_y: 97
+      m_width: 38
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .611328125
+        y: .37890625
+        width: .07421875
+        height: .1796875
+    - m_description: 'Char: [L]; Code: [76]'
+      m_id: 76
+      m_x: 272
+      m_y: 146
+      m_width: 29
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .53125
+        y: .5703125
+        width: .056640625
+        height: .1796875
+    - m_description: 'Char: [M]; Code: [77]'
+      m_id: 77
+      m_x: 459
+      m_y: 48
+      m_width: 44
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 52
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .896484375
+        y: .1875
+        width: .0859375
+        height: .1796875
+    - m_description: 'Char: [N]; Code: [78]'
+      m_id: 78
+      m_x: 390
+      m_y: 96
+      m_width: 36
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .76171875
+        y: .375
+        width: .0703125
+        height: .1796875
+    - m_description: 'Char: [O]; Code: [79]'
+      m_id: 79
+      m_x: 341
+      m_y: 0
+      m_width: 44
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 49
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .666015625
+        y: 0
+        width: .0859375
+        height: .18359375
+    - m_description: 'Char: [P]; Code: [80]'
+      m_id: 80
+      m_x: 73
+      m_y: 156
+      m_width: 35
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .142578125
+        y: .609375
+        width: .068359375
+        height: .1796875
+    - m_description: 'Char: [Q]; Code: [81]'
+      m_id: 81
+      m_x: 214
+      m_y: 0
+      m_width: 45
+      m_height: 50
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 49
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .41796875
+        y: 0
+        width: .087890625
+        height: .1953125
+    - m_description: 'Char: [R]; Code: [82]'
+      m_id: 82
+      m_x: 233
+      m_y: 99
+      m_width: 40
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .455078125
+        y: .38671875
+        width: .078125
+        height: .1796875
+    - m_description: 'Char: [S]; Code: [83]'
+      m_id: 83
+      m_x: 0
+      m_y: 61
+      m_width: 37
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 10
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: 0
+        y: .23828125
+        width: .072265625
+        height: .18359375
+    - m_description: 'Char: [T]; Code: [84]'
+      m_id: 84
+      m_x: 352
+      m_y: 96
+      m_width: 37
+      m_height: 46
+      m_xOffset: 1
+      m_yOffset: 11
+      m_xAdvance: 38
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .6875
+        y: .375
+        width: .072265625
+        height: .1796875
+    - m_description: 'Char: [U]; Code: [85]'
+      m_id: 85
+      m_x: 427
+      m_y: 96
+      m_width: 36
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .833984375
+        y: .375
+        width: .0703125
+        height: .1796875
+    - m_description: 'Char: [V]; Code: [86]'
+      m_id: 86
+      m_x: 190
+      m_y: 107
+      m_width: 42
+      m_height: 46
+      m_xOffset: 0
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .37109375
+        y: .41796875
+        width: .08203125
+        height: .1796875
+    - m_description: 'Char: [W]; Code: [87]'
+      m_id: 87
+      m_x: 0
+      m_y: 109
+      m_width: 59
+      m_height: 46
+      m_xOffset: 0
+      m_yOffset: 11
+      m_xAdvance: 59
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: 0
+        y: .42578125
+        width: .115234375
+        height: .1796875
+    - m_description: 'Char: [X]; Code: [88]'
+      m_id: 88
+      m_x: 147
+      m_y: 109
+      m_width: 42
+      m_height: 46
+      m_xOffset: 0
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .287109375
+        y: .42578125
+        width: .08203125
+        height: .1796875
+    - m_description: 'Char: [Y]; Code: [89]'
+      m_id: 89
+      m_x: 104
+      m_y: 109
+      m_width: 42
+      m_height: 46
+      m_xOffset: 0
+      m_yOffset: 11
+      m_xAdvance: 42
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .203125
+        y: .42578125
+        width: .08203125
+        height: .1796875
+    - m_description: 'Char: [Z]; Code: [90]'
+      m_id: 90
+      m_x: 464
+      m_y: 95
+      m_width: 36
+      m_height: 46
+      m_xOffset: 1
+      m_yOffset: 11
+      m_xAdvance: 38
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .90625
+        y: .37109375
+        width: .0703125
+        height: .1796875
+    - m_description: 'Char: [[]; Code: [91]'
+      m_id: 91
+      m_x: 168
+      m_y: 0
+      m_width: 13
+      m_height: 58
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .328125
+        y: 0
+        width: .025390625
+        height: .2265625
+    - m_description: 'Char: [\]; Code: [92]'
+      m_id: 92
+      m_x: 422
+      m_y: 48
+      m_width: 18
+      m_height: 47
+      m_xOffset: 0
+      m_yOffset: 10
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .82421875
+        y: .1875
+        width: .03515625
+        height: .18359375
+    - m_description: 'Char: []]; Code: [93]'
+      m_id: 93
+      m_x: 154
+      m_y: 0
+      m_width: 13
+      m_height: 58
+      m_xOffset: 1
+      m_yOffset: 11
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .30078125
+        y: 0
+        width: .025390625
+        height: .2265625
+    - m_description: 'Char: [^]; Code: [94]'
+      m_id: 94
+      m_x: 275
+      m_y: 228
+      m_width: 27
+      m_height: 25
+      m_xOffset: 1
+      m_yOffset: 10
+      m_xAdvance: 29
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .537109375
+        y: .890625
+        width: .052734375
+        height: .09765625
+    - m_description: 'Char: [_]; Code: [95]'
+      m_id: 95
+      m_x: 429
+      m_y: 222
+      m_width: 38
+      m_height: 5
+      m_xOffset: -1
+      m_yOffset: 64
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .837890625
+        y: .8671875
+        width: .07421875
+        height: .01953125
+    - m_description: 'Char: [`]; Code: [96]'
+      m_id: 96
+      m_x: 416
+      m_y: 222
+      m_width: 12
+      m_height: 9
+      m_xOffset: 2
+      m_yOffset: 11
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .8125
+        y: .8671875
+        width: .0234375
+        height: .03515625
+    - m_description: 'Char: [a]; Code: [97]'
+      m_id: 97
+      m_x: 46
+      m_y: 203
+      m_width: 31
+      m_height: 35
+      m_xOffset: 2
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .08984375
+        y: .79296875
+        width: .060546875
+        height: .13671875
+    - m_description: 'Char: [b]; Code: [98]'
+      m_id: 98
+      m_x: 302
+      m_y: 144
+      m_width: 29
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .58984375
+        y: .5625
+        width: .056640625
+        height: .1796875
+    - m_description: 'Char: [c]; Code: [99]'
+      m_id: 99
+      m_x: 142
+      m_y: 203
+      m_width: 29
+      m_height: 35
+      m_xOffset: 2
+      m_yOffset: 22
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .27734375
+        y: .79296875
+        width: .056640625
+        height: .13671875
+    - m_description: 'Char: [d]; Code: [100]'
+      m_id: 100
+      m_x: 332
+      m_y: 144
+      m_width: 29
+      m_height: 46
+      m_xOffset: 2
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .6484375
+        y: .5625
+        width: .056640625
+        height: .1796875
+    - m_description: 'Char: [e]; Code: [101]'
+      m_id: 101
+      m_x: 110
+      m_y: 203
+      m_width: 31
+      m_height: 35
+      m_xOffset: 2
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .21484375
+        y: .79296875
+        width: .060546875
+        height: .13671875
+    - m_description: 'Char: [f]; Code: [102]'
+      m_id: 102
+      m_x: 382
+      m_y: 48
+      m_width: 20
+      m_height: 47
+      m_xOffset: 0
+      m_yOffset: 10
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .74609375
+        y: .1875
+        width: .0390625
+        height: .18359375
+    - m_description: 'Char: [g]; Code: [103]'
+      m_id: 103
+      m_x: 310
+      m_y: 0
+      m_width: 30
+      m_height: 48
+      m_xOffset: 1
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .60546875
+        y: 0
+        width: .05859375
+        height: .1875
+    - m_description: 'Char: [h]; Code: [104]'
+      m_id: 104
+      m_x: 391
+      m_y: 143
+      m_width: 27
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .763671875
+        y: .55859375
+        width: .052734375
+        height: .1796875
+    - m_description: 'Char: [i]; Code: [105]'
+      m_id: 105
+      m_x: 446
+      m_y: 143
+      m_width: 6
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 14
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .87109375
+        y: .55859375
+        width: .01171875
+        height: .1796875
+    - m_description: 'Char: [j]; Code: [106]'
+      m_id: 106
+      m_x: 140
+      m_y: 0
+      m_width: 13
+      m_height: 59
+      m_xOffset: -3
+      m_yOffset: 11
+      m_xAdvance: 14
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .2734375
+        y: 0
+        width: .025390625
+        height: .23046875
+    - m_description: 'Char: [k]; Code: [107]'
+      m_id: 107
+      m_x: 362
+      m_y: 143
+      m_width: 28
+      m_height: 46
+      m_xOffset: 4
+      m_yOffset: 11
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .70703125
+        y: .55859375
+        width: .0546875
+        height: .1796875
+    - m_description: 'Char: [l]; Code: [108]'
+      m_id: 108
+      m_x: 453
+      m_y: 143
+      m_width: 6
+      m_height: 46
+      m_xOffset: 3
+      m_yOffset: 11
+      m_xAdvance: 14
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .884765625
+        y: .55859375
+        width: .01171875
+        height: .1796875
+    - m_description: 'Char: [m]; Code: [109]'
+      m_id: 109
+      m_x: 0
+      m_y: 203
+      m_width: 45
+      m_height: 35
+      m_xOffset: 4
+      m_yOffset: 22
+      m_xAdvance: 52
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: 0
+        y: .79296875
+        width: .087890625
+        height: .13671875
+    - m_description: 'Char: [n]; Code: [110]'
+      m_id: 110
+      m_x: 201
+      m_y: 203
+      m_width: 27
+      m_height: 35
+      m_xOffset: 4
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .392578125
+        y: .79296875
+        width: .052734375
+        height: .13671875
+    - m_description: 'Char: [o]; Code: [111]'
+      m_id: 111
+      m_x: 78
+      m_y: 203
+      m_width: 31
+      m_height: 35
+      m_xOffset: 2
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .15234375
+        y: .79296875
+        width: .060546875
+        height: .13671875
+    - m_description: 'Char: [p]; Code: [112]'
+      m_id: 112
+      m_x: 322
+      m_y: 49
+      m_width: 29
+      m_height: 47
+      m_xOffset: 4
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .62890625
+        y: .19140625
+        width: .056640625
+        height: .18359375
+    - m_description: 'Char: [q]; Code: [113]'
+      m_id: 113
+      m_x: 352
+      m_y: 48
+      m_width: 29
+      m_height: 47
+      m_xOffset: 2
+      m_yOffset: 22
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .6875
+        y: .1875
+        width: .056640625
+        height: .18359375
+    - m_description: 'Char: [r]; Code: [114]'
+      m_id: 114
+      m_x: 486
+      m_y: 142
+      m_width: 18
+      m_height: 35
+      m_xOffset: 4
+      m_yOffset: 22
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .94921875
+        y: .5546875
+        width: .03515625
+        height: .13671875
+    - m_description: 'Char: [s]; Code: [115]'
+      m_id: 115
+      m_x: 172
+      m_y: 203
+      m_width: 28
+      m_height: 35
+      m_xOffset: 1
+      m_yOffset: 22
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .3359375
+        y: .79296875
+        width: .0546875
+        height: .13671875
+    - m_description: 'Char: [t]; Code: [116]'
+      m_id: 116
+      m_x: 460
+      m_y: 143
+      m_width: 17
+      m_height: 45
+      m_xOffset: 1
+      m_yOffset: 12
+      m_xAdvance: 17
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .8984375
+        y: .55859375
+        width: .033203125
+        height: .17578125
+    - m_description: 'Char: [u]; Code: [117]'
+      m_id: 117
+      m_x: 370
+      m_y: 190
+      m_width: 27
+      m_height: 34
+      m_xOffset: 3
+      m_yOffset: 23
+      m_xAdvance: 35
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .72265625
+        y: .7421875
+        width: .052734375
+        height: .1328125
+    - m_description: 'Char: [v]; Code: [118]'
+      m_id: 118
+      m_x: 275
+      m_y: 193
+      m_width: 31
+      m_height: 34
+      m_xOffset: 0
+      m_yOffset: 23
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .537109375
+        y: .75390625
+        width: .060546875
+        height: .1328125
+    - m_description: 'Char: [w]; Code: [119]'
+      m_id: 119
+      m_x: 229
+      m_y: 201
+      m_width: 45
+      m_height: 34
+      m_xOffset: 0
+      m_yOffset: 23
+      m_xAdvance: 45
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .447265625
+        y: .78515625
+        width: .087890625
+        height: .1328125
+    - m_description: 'Char: [x]; Code: [120]'
+      m_id: 120
+      m_x: 307
+      m_y: 191
+      m_width: 31
+      m_height: 34
+      m_xOffset: 0
+      m_yOffset: 23
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .599609375
+        y: .74609375
+        width: .060546875
+        height: .1328125
+    - m_description: 'Char: [y]; Code: [121]'
+      m_id: 121
+      m_x: 291
+      m_y: 49
+      m_width: 30
+      m_height: 47
+      m_xOffset: 0
+      m_yOffset: 23
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .568359375
+        y: .19140625
+        width: .05859375
+        height: .18359375
+    - m_description: 'Char: [z]; Code: [122]'
+      m_id: 122
+      m_x: 339
+      m_y: 191
+      m_width: 30
+      m_height: 34
+      m_xOffset: 1
+      m_yOffset: 23
+      m_xAdvance: 31
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .662109375
+        y: .74609375
+        width: .05859375
+        height: .1328125
+    - m_description: 'Char: [{]; Code: [123]'
+      m_id: 123
+      m_x: 60
+      m_y: 0
+      m_width: 19
+      m_height: 60
+      m_xOffset: 1
+      m_yOffset: 10
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .1171875
+        y: 0
+        width: .037109375
+        height: .234375
+    - m_description: 'Char: [|]; Code: [124]'
+      m_id: 124
+      m_x: 133
+      m_y: 0
+      m_width: 6
+      m_height: 60
+      m_xOffset: 5
+      m_yOffset: 10
+      m_xAdvance: 15
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .259765625
+        y: 0
+        width: .01171875
+        height: .234375
+    - m_description: 'Char: [}]; Code: [125]'
+      m_id: 125
+      m_x: 80
+      m_y: 0
+      m_width: 19
+      m_height: 60
+      m_xOffset: 1
+      m_yOffset: 10
+      m_xAdvance: 21
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .15625
+        y: 0
+        width: .037109375
+        height: .234375
+    - m_description: 'Char: [~]; Code: [126]'
+      m_id: 126
+      m_x: 383
+      m_y: 225
+      m_width: 32
+      m_height: 10
+      m_xOffset: 2
+      m_yOffset: 29
+      m_xAdvance: 36
+      m_page: 0
+      m_channel: 15
+      m_uv:
+        serializedVersion: 2
+        x: .748046875
+        y: .87890625
+        width: .0625
+        height: .0390625
+    m_kernings:
+    - m_description: '[ ] [A] Amout: [-3]'
+      m_first: 32
+      m_second: 65
+      m_amount: -3
+    - m_description: '[ ] [T] Amout: [-1]'
+      m_first: 32
+      m_second: 84
+      m_amount: -1
+    - m_description: '[ ] [Y] Amout: [-1]'
+      m_first: 32
+      m_second: 89
+      m_amount: -1
+    - m_description: '[y] [.] Amout: [-4]'
+      m_first: 121
+      m_second: 46
+      m_amount: -4
+    - m_description: '[y] [,] Amout: [-4]'
+      m_first: 121
+      m_second: 44
+      m_amount: -4
+    - m_description: '[w] [.] Amout: [-3]'
+      m_first: 119
+      m_second: 46
+      m_amount: -3
+    - m_description: '[w] [,] Amout: [-3]'
+      m_first: 119
+      m_second: 44
+      m_amount: -3
+    - m_description: '[v] [.] Amout: [-4]'
+      m_first: 118
+      m_second: 46
+      m_amount: -4
+    - m_description: '[v] [,] Amout: [-4]'
+      m_first: 118
+      m_second: 44
+      m_amount: -4
+    - m_description: '[r] [.] Amout: [-3]'
+      m_first: 114
+      m_second: 46
+      m_amount: -3
+    - m_description: '[1] [1] Amout: [-4]'
+      m_first: 49
+      m_second: 49
+      m_amount: -4
+    - m_description: '[A] [ ] Amout: [-3]'
+      m_first: 65
+      m_second: 32
+      m_amount: -3
+    - m_description: '[A] [T] Amout: [-4]'
+      m_first: 65
+      m_second: 84
+      m_amount: -4
+    - m_description: '[A] [V] Amout: [-4]'
+      m_first: 65
+      m_second: 86
+      m_amount: -4
+    - m_description: '[A] [W] Amout: [-2]'
+      m_first: 65
+      m_second: 87
+      m_amount: -2
+    - m_description: '[A] [Y] Amout: [-4]'
+      m_first: 65
+      m_second: 89
+      m_amount: -4
+    - m_description: '[A] [v] Amout: [-1]'
+      m_first: 65
+      m_second: 118
+      m_amount: -1
+    - m_description: '[A] [w] Amout: [-1]'
+      m_first: 65
+      m_second: 119
+      m_amount: -1
+    - m_description: '[A] [y] Amout: [-1]'
+      m_first: 65
+      m_second: 121
+      m_amount: -1
+    - m_description: '[r] [,] Amout: [-3]'
+      m_first: 114
+      m_second: 44
+      m_amount: -3
+    - m_description: '[F] [,] Amout: [-7]'
+      m_first: 70
+      m_second: 44
+      m_amount: -7
+    - m_description: '[F] [.] Amout: [-7]'
+      m_first: 70
+      m_second: 46
+      m_amount: -7
+    - m_description: '[F] [A] Amout: [-3]'
+      m_first: 70
+      m_second: 65
+      m_amount: -3
+    - m_description: '[L] [ ] Amout: [-2]'
+      m_first: 76
+      m_second: 32
+      m_amount: -2
+    - m_description: '[L] [T] Amout: [-4]'
+      m_first: 76
+      m_second: 84
+      m_amount: -4
+    - m_description: '[L] [V] Amout: [-4]'
+      m_first: 76
+      m_second: 86
+      m_amount: -4
+    - m_description: '[L] [W] Amout: [-4]'
+      m_first: 76
+      m_second: 87
+      m_amount: -4
+    - m_description: '[L] [Y] Amout: [-4]'
+      m_first: 76
+      m_second: 89
+      m_amount: -4
+    - m_description: '[L] [y] Amout: [-2]'
+      m_first: 76
+      m_second: 121
+      m_amount: -2
+    - m_description: '[f] [f] Amout: [-1]'
+      m_first: 102
+      m_second: 102
+      m_amount: -1
+    - m_description: '[P] [ ] Amout: [-1]'
+      m_first: 80
+      m_second: 32
+      m_amount: -1
+    - m_description: '[P] [,] Amout: [-8]'
+      m_first: 80
+      m_second: 44
+      m_amount: -8
+    - m_description: '[P] [.] Amout: [-8]'
+      m_first: 80
+      m_second: 46
+      m_amount: -8
+    - m_description: '[P] [A] Amout: [-4]'
+      m_first: 80
+      m_second: 65
+      m_amount: -4
+    - m_description: '[R] [T] Amout: [-1]'
+      m_first: 82
+      m_second: 84
+      m_amount: -1
+    - m_description: '[R] [V] Amout: [-1]'
+      m_first: 82
+      m_second: 86
+      m_amount: -1
+    - m_description: '[R] [W] Amout: [-1]'
+      m_first: 82
+      m_second: 87
+      m_amount: -1
+    - m_description: '[R] [Y] Amout: [-1]'
+      m_first: 82
+      m_second: 89
+      m_amount: -1
+    - m_description: '[T] [ ] Amout: [-1]'
+      m_first: 84
+      m_second: 32
+      m_amount: -1
+    - m_description: '[T] [,] Amout: [-7]'
+      m_first: 84
+      m_second: 44
+      m_amount: -7
+    - m_description: '[T] [-] Amout: [-3]'
+      m_first: 84
+      m_second: 45
+      m_amount: -3
+    - m_description: '[T] [.] Amout: [-7]'
+      m_first: 84
+      m_second: 46
+      m_amount: -7
+    - m_description: '[T] [:] Amout: [-7]'
+      m_first: 84
+      m_second: 58
+      m_amount: -7
+    - m_description: '[Y] [v] Amout: [-3]'
+      m_first: 89
+      m_second: 118
+      m_amount: -3
+    - m_description: '[T] [A] Amout: [-4]'
+      m_first: 84
+      m_second: 65
+      m_amount: -4
+    - m_description: '[T] [O] Amout: [-1]'
+      m_first: 84
+      m_second: 79
+      m_amount: -1
+    - m_description: '[T] [a] Amout: [-7]'
+      m_first: 84
+      m_second: 97
+      m_amount: -7
+    - m_description: '[T] [c] Amout: [-7]'
+      m_first: 84
+      m_second: 99
+      m_amount: -7
+    - m_description: '[T] [e] Amout: [-7]'
+      m_first: 84
+      m_second: 101
+      m_amount: -7
+    - m_description: '[T] [i] Amout: [-2]'
+      m_first: 84
+      m_second: 105
+      m_amount: -2
+    - m_description: '[T] [o] Amout: [-7]'
+      m_first: 84
+      m_second: 111
+      m_amount: -7
+    - m_description: '[T] [r] Amout: [-2]'
+      m_first: 84
+      m_second: 114
+      m_amount: -2
+    - m_description: '[T] [s] Amout: [-7]'
+      m_first: 84
+      m_second: 115
+      m_amount: -7
+    - m_description: '[T] [u] Amout: [-2]'
+      m_first: 84
+      m_second: 117
+      m_amount: -2
+    - m_description: '[T] [w] Amout: [-3]'
+      m_first: 84
+      m_second: 119
+      m_amount: -3
+    - m_description: '[T] [y] Amout: [-3]'
+      m_first: 84
+      m_second: 121
+      m_amount: -3
+    - m_description: '[V] [,] Amout: [-5]'
+      m_first: 86
+      m_second: 44
+      m_amount: -5
+    - m_description: '[V] [-] Amout: [-3]'
+      m_first: 86
+      m_second: 45
+      m_amount: -3
+    - m_description: '[V] [.] Amout: [-5]'
+      m_first: 86
+      m_second: 46
+      m_amount: -5
+    - m_description: '[V] [:] Amout: [-2]'
+      m_first: 86
+      m_second: 58
+      m_amount: -2
+    - m_description: '[Y] [u] Amout: [-3]'
+      m_first: 89
+      m_second: 117
+      m_amount: -3
+    - m_description: '[V] [A] Amout: [-4]'
+      m_first: 86
+      m_second: 65
+      m_amount: -4
+    - m_description: '[V] [a] Amout: [-4]'
+      m_first: 86
+      m_second: 97
+      m_amount: -4
+    - m_description: '[V] [e] Amout: [-3]'
+      m_first: 86
+      m_second: 101
+      m_amount: -3
+    - m_description: '[V] [i] Amout: [-1]'
+      m_first: 86
+      m_second: 105
+      m_amount: -1
+    - m_description: '[V] [o] Amout: [-3]'
+      m_first: 86
+      m_second: 111
+      m_amount: -3
+    - m_description: '[V] [r] Amout: [-2]'
+      m_first: 86
+      m_second: 114
+      m_amount: -2
+    - m_description: '[V] [u] Amout: [-2]'
+      m_first: 86
+      m_second: 117
+      m_amount: -2
+    - m_description: '[V] [y] Amout: [-2]'
+      m_first: 86
+      m_second: 121
+      m_amount: -2
+    - m_description: '[W] [,] Amout: [-3]'
+      m_first: 87
+      m_second: 44
+      m_amount: -3
+    - m_description: '[W] [-] Amout: [-1]'
+      m_first: 87
+      m_second: 45
+      m_amount: -1
+    - m_description: '[W] [.] Amout: [-3]'
+      m_first: 87
+      m_second: 46
+      m_amount: -3
+    - m_description: '[W] [:] Amout: [-1]'
+      m_first: 87
+      m_second: 58
+      m_amount: -1
+    - m_description: '[Y] [q] Amout: [-5]'
+      m_first: 89
+      m_second: 113
+      m_amount: -5
+    - m_description: '[W] [A] Amout: [-2]'
+      m_first: 87
+      m_second: 65
+      m_amount: -2
+    - m_description: '[W] [a] Amout: [-2]'
+      m_first: 87
+      m_second: 97
+      m_amount: -2
+    - m_description: '[W] [e] Amout: [-1]'
+      m_first: 87
+      m_second: 101
+      m_amount: -1
+    - m_description: '[Y] [p] Amout: [-4]'
+      m_first: 89
+      m_second: 112
+      m_amount: -4
+    - m_description: '[W] [o] Amout: [-1]'
+      m_first: 87
+      m_second: 111
+      m_amount: -1
+    - m_description: '[W] [r] Amout: [-1]'
+      m_first: 87
+      m_second: 114
+      m_amount: -1
+    - m_description: '[W] [u] Amout: [-1]'
+      m_first: 87
+      m_second: 117
+      m_amount: -1
+    - m_description: '[Y] [o] Amout: [-5]'
+      m_first: 89
+      m_second: 111
+      m_amount: -5
+    - m_description: '[Y] [ ] Amout: [-1]'
+      m_first: 89
+      m_second: 32
+      m_amount: -1
+    - m_description: '[Y] [,] Amout: [-8]'
+      m_first: 89
+      m_second: 44
+      m_amount: -8
+    - m_description: '[Y] [-] Amout: [-5]'
+      m_first: 89
+      m_second: 45
+      m_amount: -5
+    - m_description: '[Y] [.] Amout: [-8]'
+      m_first: 89
+      m_second: 46
+      m_amount: -8
+    - m_description: '[Y] [:] Amout: [-3]'
+      m_first: 89
+      m_second: 58
+      m_amount: -3
+    - m_description: '[Y] [i] Amout: [-2]'
+      m_first: 89
+      m_second: 105
+      m_amount: -2
+    - m_description: '[Y] [A] Amout: [-4]'
+      m_first: 89
+      m_second: 65
+      m_amount: -4
+    - m_description: '[Y] [a] Amout: [-4]'
+      m_first: 89
+      m_second: 97
+      m_amount: -4
+    - m_description: '[Y] [e] Amout: [-5]'
+      m_first: 89
+      m_second: 101
+      m_amount: -5
