@@ -14,9 +14,9 @@ public class playerController : MonoBehaviour {
 	Vector3 obstacle3 = new Vector3 (-3.5f, 2.25f, 0.0f);
 	Vector3 obstacle4 = new Vector3 (-3.5f, -4.0f, 0.0f);
 	Vector3 obstacle5 = new Vector3 (-2.25f, -1.5f, 0.0f);
-	Vector3 obstacle6 = new Vector3 (4.0f, 2.25f, 0.0f);
-	Vector3 obstacle7 = new Vector3 (4.0f, -2.75f, 0.0f);
-	Vector3 obstacle8 = new Vector3 (5.25f, -0.25f, 0.0f);
+	Vector3 obstacle6 = new Vector3 (2.75f, 2.25f, 0.0f);
+	Vector3 obstacle7 = new Vector3 (2.75f, -2.75f, 0.0f);
+	Vector3 obstacle8 = new Vector3 (4.0f, -0.25f, 0.0f);
 
 	Vector3 block00;
 	Vector3 block01;
@@ -161,13 +161,7 @@ public class playerController : MonoBehaviour {
 		block84 = GameObject.Find("block84").transform.position;
 		block85 = GameObject.Find("block85").transform.position;
 		block86 = GameObject.Find("block86").transform.position;
-		block90 = GameObject.Find("block90").transform.position;
-		block91 = GameObject.Find("block91").transform.position;
-		block92 = GameObject.Find("block92").transform.position;
-		block93 = GameObject.Find("block93").transform.position;
-		block94 = GameObject.Find("block94").transform.position;
-		block95 = GameObject.Find("block95").transform.position;
-		block96 = GameObject.Find("block96").transform.position;
+
 
 		//Debug.Log(block00);
 	}
@@ -183,7 +177,7 @@ public class playerController : MonoBehaviour {
 		Vector3 prevPos = transform.position;
 
 		if (horz != 0.0f) { 
-			if (horz > 0.0f && curPos.x < 5.25f) {
+			if (horz > 0.0f && curPos.x < 4.0f) {
 				curPos.x += 1.25f;
 			} else if (horz < 0.0f && curPos.x > -6.0f){
 				curPos.x -= 1.25f;
@@ -720,68 +714,12 @@ public class playerController : MonoBehaviour {
 					numColored++;
 				}
 			}
-			else if (block90 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block90").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-			else if (block91 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block91").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-			else if (block92 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block92").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-			else if (block93 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block93").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-			else if (block94 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block94").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-			else if (block95 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block95").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-			else if (block96 == curPos) {
-				SpriteRenderer sprite = GameObject.Find("block96").GetComponent<SpriteRenderer>();
-				if (sprite.color == Color.white) {
-					sprite.color = new Color (1.0f, 0.2f, 0.0f, 1.0f);
-					transform.position = curPos;
-					numColored++;
-				}
-			}
-
 		}
 
 		if (curPos == win) {
-			if (numColored >= 61) {
+			if (numColored >= 54) {
 				isSuccess = true;
+				transform.position = curPos;
 			}
 		}
 	}
