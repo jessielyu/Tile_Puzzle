@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../lait/base/Assets/Scripts/NetworkController_Client.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerController.cs">
     <Files>
-      <File FileName="../../../lait/base/Assets/Scripts/NetworkController_Client.cs" Line="500" Column="121" />
+      <File FileName="Assets/Scripts/playerController.cs" Line="192" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
