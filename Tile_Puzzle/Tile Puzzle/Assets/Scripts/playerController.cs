@@ -170,40 +170,25 @@ public class playerController : MonoBehaviour {
 	void Update () {
 	
 		//Vector3 curPos = transform.position;
-
-		float horz = Input.GetAxis("Horizontal");
-		float vert = Input.GetAxis("Vertical");
 		Vector3 curPos = transform.position;
 		Vector3 prevPos = transform.position;
 
-		if (horz != 0.0f) { 
-			if (horz > 0.0f && curPos.x < 4.0f) {
+		if (Input.GetKeyDown (KeyCode.RightArrow)) { 
+			if (curPos.x < 4.0f) {
 				curPos.x += 1.25f;
-			} else if (horz < 0.0f && curPos.x > -6.0f){
+			}
+		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+			if (curPos.x > -6.0f) {
 				curPos.x -= 1.25f;
 			}
 
-			//Debug.Log (horz);
-			// wait buffer
-			int i = 0;
-			while (i != 1500) {
-				i++;
-				Debug.Log (i);
-			}
-			//Debug.Log(curPos);
-		} else if (vert != 0) {
-			if (vert > 0.0f && curPos.y < 3.5f) {
+		} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
+			if (curPos.y < 3.5f) {
 				curPos.y += 1.25f;
-			} else if (vert < 0.0f && curPos.y > -4.0f){
-				curPos.y -= 1.25f;
 			}
-
-			//Debug.Log (vert);
-			// wait buffer
-			int i = 0;
-			while (i != 1500) {
-				i++;
-				Debug.Log (i);
+		} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+			if (curPos.y > -4.0f) {
+				curPos.y -= 1.25f;
 			}
 		}
 
